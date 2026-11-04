@@ -1,0 +1,6 @@
+- name: demo 
+  hosts: local
+  connection: local
+  tasks:
+  - name: "print helloworld"
+    msg: " hi iam sunitha"
