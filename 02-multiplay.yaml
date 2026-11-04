@@ -9,3 +9,6 @@
   - name: patient 2
     debug: 
       msg: "hospital from patient 2"
+  - name: patient 2
+    debug: 
+      msg: "hospital from patient 2"
