@@ -10,15 +10,14 @@
     debug: 
       msg: "hospital from patient 2"
   
+- name: hospital 2
+  hosts: local
+  connection: local
+  tasks: 
+   - name: patient 1
+     debug:
+       msg: "hospital 2 from patient 1"
 
-  - name: hospital 2
-    hosts: local
-    connection: local
-    tasks: 
-    - name: patient 1
-      debug:
-        msg: "hospital 2 from patient 1"
-
-  - name: patient 2 
-    debug: 
-      msg: "hospital 2 from patient 2"
+   - name: patient 2 
+     debug: 
+       msg: "hospital 2 from patient 2"
