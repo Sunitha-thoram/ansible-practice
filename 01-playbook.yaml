@@ -4,4 +4,4 @@
   tasks:
   - name: "print helloworld"
     debug:
-      msg: " hi iam sunitha"
+      msg: "hi iam sunitha"
