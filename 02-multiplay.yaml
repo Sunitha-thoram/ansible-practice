@@ -1,0 +1,11 @@
+- name: hospital
+  hosts: local
+  connection: local
+  tasks:
+  - name: patient 1
+    debug:
+      msg: "hospital from patient 1"
+
+  - name: patient 2
+    debug: 
+      msg: "hospital from patient 2"
