@@ -3,4 +3,5 @@
   connection: local
   tasks:
   - name: "print helloworld"
-    msg: " hi iam sunitha"
+    debug:
+      msg: " hi iam sunitha"
